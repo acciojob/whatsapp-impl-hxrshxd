@@ -20,14 +20,14 @@ public class WhatsappService {
         return whatsappRepository.createMessage(content);
     }
 
-    public int sendMessage(Message message, User sender, Group group) throws Exception {
-        if (!whatsappRepository.checkGroup(group)) throw new Exception("Group does not exist");
-
-        if (!whatsappRepository.checkSenderInGroup(group, sender)) throw new Exception("You are not allowed to send message");
-
-        int messages = whatsappRepository.sendMessage(message, sender, group);
-        return messages;
-    }
+//    public int sendMessage(Message message, User sender, Group group) throws Exception {
+//        if (!whatsappRepository.checkGroup(group)) throw new Exception("Group does not exist");
+//
+//        if (!whatsappRepository.checkSenderInGroup(group, sender)) throw new Exception("You are not allowed to send message");
+//
+//        int messages = whatsappRepository.sendMessage(message, sender, group);
+//        return messages;
+//    }
 }
 
 

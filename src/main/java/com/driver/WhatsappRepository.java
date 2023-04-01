@@ -106,12 +106,12 @@ public class WhatsappRepository {
         return false;
     }
 
-    public List<Message> getMessageList(Group group) {
+//    public List<Message> getMessageList(Group group) {
+//
+//    }
 
-    }
-
-    public int sendMessage(Message message, User sender, Group group) {
-
-        groupMessageMap.put(group, messageList);
-    }
+//    public int sendMessage(Message message, User sender, Group group) {
+//
+//        groupMessageMap.put(group, messageList);
+//    }
 }
